@@ -2,11 +2,8 @@
 name: Run API Tests and Generate Cypress Report
 
 # Specifies the trigger for this workflow
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - 'master'
+on: [push]
+  
 #  schedule:
 #    - cron: '0 8 1-31 * *'
 
